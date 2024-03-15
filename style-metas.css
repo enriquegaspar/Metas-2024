@@ -27,14 +27,14 @@ body {
     margin: 0 auto;
 }
 
-.titulo-pricipal {
+.titulo-principal {
 
     text-align: left;
     width: 100%;
     font-size: 32px;
 }
 
-.titulo-pricipal span {
+.titulo-principal span {
 
     color: var(--verde);
 }
