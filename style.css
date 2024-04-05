@@ -4,13 +4,4 @@ body{
     font-family: Oswald;
 }
 
-h1{
-    color: rgb(45, 48, 224)
-    font-size: 50px;
-    
-}
-
-.abas-textos{
-    background-color: var(--texto-fundo);
-}
 
