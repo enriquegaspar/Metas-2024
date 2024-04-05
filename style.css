@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body{
-    background:-moz-radial-gradient(rgb(105, 9, 196), purple, yellow, white );
+    background:-moz-radial-gradient(hsl(12, 95%, 43%), rgb(204, 12, 204), rgb(3, 204, 30), rgb(3, 7, 231) );
     font-family: Oswald;
 }
 
