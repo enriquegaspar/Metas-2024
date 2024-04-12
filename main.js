@@ -20,7 +20,7 @@ const tempoObjetivo3 = new Date("2024-12-8T00:00:00");
 
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3];
 
-contadores[0].textContent = calculaTempo(tempoObjetivo1);
+
 
 function calculaTempo(tempoObjetivo){
 let tempoAtual = new Date();
@@ -40,8 +40,14 @@ return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segun
     return "PRAZO ENCERRADO!!!"
 }
 }
-
 function atualizaCronometro(){
+    //laço de repetição para interagir com todos os objetivos
+    for (let i = 0; i ,contadores.length; i++){
+        contadores[i].textContent = calculaTempo(tempos[i]);
+    }
+}
+
+function comecaCronometro(){
     atualizaCronometro();
     setInterval(atualizaCronometro, 1000);
 }
