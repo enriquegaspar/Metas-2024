@@ -18,6 +18,8 @@ const tempoObjetivo1 = new Date("2024-12-22T00:00:00");
 const tempoObjetivo2 = new Date("2024-07-15T00:00:00");
 const tempoObjetivo3 = new Date("2024-12-8T00:00:00");
 
+const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3];
+
 
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
@@ -33,5 +35,9 @@ segundos %= 60;
 minutos %= 60;
 horas %= 24;
 
+if (tempoFinal > 0){
 return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
+}else{
+    return "PRAZO ENCERRADO"
+}
 }
