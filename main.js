@@ -2,7 +2,7 @@ const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 
 for (let i = 0; i < botoes.length; i++) {
-    botoes[i].onclick = function () {
+    botoes[i].onclick = function() {
 
         for (let j = 0; j < botoes.length; j++) {
             botoes[j].classList.remove("ativo");
@@ -18,7 +18,7 @@ const tempoObjetivo1 = new Date("2024-12-22T00:00:00");
 const tempoObjetivo2 = new Date("2024-07-15T00:00:00");
 const tempoObjetivo3 = new Date("2024-12-08T00:00:00");
 
-const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3];
+const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3];
 
 
 
@@ -42,7 +42,7 @@ return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segun
 }
 function atualizaCronometro(){
     //laço de repetição para interagir com todos os objetivos
-    for (let i = 0; i ,contadores.length; i++){
+    for (let i = 0; i < contadores.length; i++){
         contadores[i].textContent = calculaTempo(tempos[i]);
     }
 }
