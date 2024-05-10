@@ -35,7 +35,7 @@ minutos %= 60;
 horas %= 24;
 
 if (tempoFinal > 0){
-return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
+return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
 }else{
     return "PRAZO ENCERRADO!!!"
 }
